@@ -2,3 +2,34 @@
 runs/detect/predict/08fd33_4.avi
 yolov8x.pt
 runs/detect/predict2/08fd33_4.avi
+.venv/Lib/site-packages/babel/locale-data/zh_Hans_CN.dat
+# Virtual Environment Folders
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment configuration
+.env
+*.env
+
+# Cache and logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE folders (just in case you're using VS Code or PyCharm)
+.vscode/
+.idea/
+

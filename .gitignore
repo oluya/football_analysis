@@ -1,3 +1,4 @@
 /input_videos
 runs/detect/predict/08fd33_4.avi
 yolov8x.pt
+runs/detect/predict2/08fd33_4.avi

@@ -23,7 +23,7 @@ def main():
     
     #Save cropped image of a player
 
-    for track_id, player in tracks['players'][6].items():
+    for track_id, player in tracks['players'][0].items():
         bbox = player['bbox']
         frame= video_frames[0]
 
@@ -95,7 +95,7 @@ def main():
     speed_and_distance_estimator.draw_speed_and_distance(output_video_frames,tracks)
 
     # Save video
-    save_video(output_video_frames, 'output_videos/output_video.avi')
+    save_video(output_video_frames, 'output_videos/output_video_Test1.avi')
 
 if __name__ == '__main__':
     main()
